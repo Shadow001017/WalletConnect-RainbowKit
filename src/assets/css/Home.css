@@ -1,0 +1,86 @@
+
+.part2 {
+    display: flex;
+    justify-content: center;
+    padding-left:20px;
+    padding-right:20px;
+    background-image: url("../img/polybanner.jpg");
+}
+
+.part3 {
+    display: flex;
+    justify-content: center;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: rgb(58, 54, 75);
+}
+
+.part3.light {
+    background-color: white;
+}
+
+.part4 {
+    display: flex;
+    justify-content: center;
+    padding-left:20px;
+    padding-right:20px;
+    background-image: url("../img/polybanner2.jpg");
+}
+
+.pad {
+    width: auto;
+    height: 280px;
+    margin: 10px;
+    background-color:#444444 ;
+    border-radius: 10%;
+}
+
+.pad.light {
+    background-color: white;
+}
+
+.trade {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, rgb(56, 81, 178) , rgb(222, 67, 191));
+}
+.trade:hover {
+    background-image: linear-gradient(to bottom, rgba(56, 80, 178, 0.651) , rgba(222, 67, 191, 0.527));
+}
+.anim-star {
+    animation: star 3s;
+    animation-iteration-count: infinite;
+}
+
+.anim-star1 {
+    animation: star1 3s;
+    animation-iteration-count: infinite;
+}
+
+.anim-trade {
+    animation: trade 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes star {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(8px, 8px);}
+    100% {transform: translate(0px,0px);}
+}
+
+@keyframes star1 {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(8px, -8px);}
+    100% {transform: translate(0px,0px);}
+}
+
+@keyframes trade {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(10deg);}
+    75% {transform: rotate(-10deg);}
+    100% {transform: rotate(0deg);}
+}

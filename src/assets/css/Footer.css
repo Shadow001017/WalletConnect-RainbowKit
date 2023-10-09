@@ -1,0 +1,13 @@
+.footer {
+    position: relative;
+    background-color:rgb(39, 38, 44);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer-right {
+    position: absolute;
+    right: 5%;
+}
