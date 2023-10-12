@@ -18,6 +18,7 @@ var options = {
 const VaultIndex = () => {
     const { id } = useParams();
 
+    const [ openActive, setOpenActive ] = useState(false);
     const [ openM, setOpenM ] = useState(false);
     const [ openS, setOpenS ] = useState(false);
     const [ key, setKey ] = useState("Default");
